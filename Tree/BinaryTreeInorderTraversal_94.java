@@ -13,7 +13,7 @@ import java.util.Stack;
  * Created by Druning on 2017/9/21.
  * LEETCODE 94
  */
-public class BinaryTreeInorderTraversal {
+public class BinaryTreeInorderTraversal_94 {
     public static List<Integer> sulution(TreeNode a){
         ArrayList<Integer> result = new ArrayList<>();
         Stack<TreeNode> s = new Stack<>();
@@ -39,13 +39,5 @@ public class BinaryTreeInorderTraversal {
         for(Integer num : result){
             System.out.println(num);
         }
-    }
-}
-class TreeNode{
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int val){
-        this.val = val;
     }
 }

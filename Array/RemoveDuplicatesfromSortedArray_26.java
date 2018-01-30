@@ -1,4 +1,4 @@
-package array;
+package Array;
 
 /**
  * Created by Druning on 2017/7/5.

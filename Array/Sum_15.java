@@ -1,7 +1,4 @@
-package array;
-
-import java.util.Arrays;
-import java.util.List;
+package Array;
 
 /**
  * Created by Druning on 2017/7/11.
