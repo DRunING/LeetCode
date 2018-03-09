@@ -3,7 +3,7 @@ package Search;
 /**
  * Created by Druning on 2017/9/24.
  */
-public class SearchInsertPosition_35 {
+    public class SearchInsertPosition_35 {
 
 
     private static int searchInsert(int[]  nums, int target){

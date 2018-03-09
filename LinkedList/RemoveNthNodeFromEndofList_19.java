@@ -12,12 +12,12 @@ public class RemoveNthNodeFromEndofList {
         LinkedNode n3 = new LinkedNode(3);
         n1.next = n2;
         n2.next = n3;
-        LinkedNode result = sulotion(n1, 2);
+        LinkedNode result = solution(n1, 2);
         System.out.println("the answer is..");
         System.out.println(result.val);
 
     }
-    static LinkedNode sulotion(LinkedNode head, int n){
+    static LinkedNode solution(LinkedNode head, int n){
         int length = LinkedNode.getLength(head);
         System.out.println(length);
 //        Stack<LinkedNode> s= new Stack<>();

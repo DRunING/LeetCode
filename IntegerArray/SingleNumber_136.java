@@ -10,7 +10,7 @@ import java.util.Set;
 /**
  * Created by Druning on 2018/1/12.
  */
-public class SingleOne {
+public class SingleNumber_136 {
     public int sulotion(int[] nums){
         Set<Integer> set = new HashSet<>();
         for(int i = 0; i < nums.length; i++){
