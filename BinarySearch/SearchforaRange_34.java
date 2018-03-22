@@ -1,4 +1,4 @@
-package Search;
+package BinarySearch;
 
 import org.junit.Test;
 

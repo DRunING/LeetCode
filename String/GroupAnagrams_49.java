@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * Created by Druning on 2017/9/5.
  */
-public class GroupAnagrams {
+public class GroupAnagrams_49 {
     public static List<List<String>> solutionByMap(String[] s){
         List<List<String>> result = new ArrayList<List<String>>();
         Map<String, ArrayList<String>> mp = new HashMap<>();

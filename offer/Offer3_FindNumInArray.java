@@ -3,5 +3,9 @@ package offer;
 /**
  * @author zenli
  */
-public class FindNumInArray_3 {
+public class Offer3_FindNumInArray {
+    public boolean solution(int[] a){
+
+        return true;
+    }
 }

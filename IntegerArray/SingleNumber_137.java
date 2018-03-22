@@ -1,4 +1,4 @@
-package Array;
+package IntegerArray;
 
 /**
  * Created by Druning on 2018/1/12.

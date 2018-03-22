@@ -1,9 +1,6 @@
-package Array;
+package IntegerArray;
 
 import org.junit.Test;
-
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by Druning on 2018/1/11.

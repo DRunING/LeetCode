@@ -1,8 +1,6 @@
-package Array;
+package IntegerArray;
 
 import org.junit.Test;
-
-import java.util.HashMap;
 
 /**
  * Created by Druning on 2018/1/10.

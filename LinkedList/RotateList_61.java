@@ -1,7 +1,8 @@
 package LinkedList;
 
+
 /**
- * Created by Druning on 2017/9/23.
+ * 旋转链表， 会改变链表结构
  */
 public class RotateList_61 {
     private static LinkedNode solution(LinkedNode head, int k){

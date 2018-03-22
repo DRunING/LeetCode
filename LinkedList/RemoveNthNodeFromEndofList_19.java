@@ -1,39 +1,41 @@
 package LinkedList;
 
+import org.junit.Test;
+
 import java.util.Stack;
 
 /**
  * Created by Druning on 2017/9/21.
  */
-public class RemoveNthNodeFromEndofList {
-    public static void main(String[] args){
-        LinkedNode n1 = new LinkedNode(1);
-        LinkedNode n2 = new LinkedNode(4);
-        LinkedNode n3 = new LinkedNode(3);
-        n1.next = n2;
-        n2.next = n3;
-        LinkedNode result = solution(n1, 2);
-        System.out.println("the answer is..");
-        System.out.println(result.val);
 
+//经典题，使用快慢指针，当慢指针比快指针迟走n步
+public class RemoveNthNodeFromEndofList_19 {
+    static ListNode solution(ListNode head, int n){
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+        ListNode fast = dummy;
+        ListNode slow = dummy;
+
+        //快指针先走n步
+        for(int i = 0;i < n ; i++){
+            fast = fast.next;
+        }
+
+        //当fast的下一个节点是null, 即fast指向最后一个节点时，停止循环
+        while(fast.next != null){
+            fast = fast.next;
+            slow = slow.next;
+        }
+
+        //删除slow.next节点
+        slow.next = slow.next.next;
+        return dummy.next;
     }
-    static LinkedNode solution(LinkedNode head, int n){
-        int length = LinkedNode.getLength(head);
-        System.out.println(length);
-//        Stack<LinkedNode> s= new Stack<>();
-//        LinkedNode tmp = head;
-//        while(tmp != null){
-//            s.add(tmp);
-//            tmp = tmp.next;
-//        }
-//
-//        LinkedNode tmp1 = null;
-//        for(int i = 1; i <= n ; i++){
-//            tmp1 = s.pop();
-//        }
-//        s.pop();
-//        s.pop().next = tmp1;
 
-        return head;
+    @Test
+    public void test(){
+        ListNode l = LinkedListUtils.generate(new int[]{1, 8, 3, 2});
+        ListNode result =  solution(l, 1);
+        LinkedListUtils.printLinkedList(result);
     }
 }

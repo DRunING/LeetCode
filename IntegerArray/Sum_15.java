@@ -1,18 +1,20 @@
-package Array;
+package IntegerArray;
 
 import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashMap;
 import java.util.List;
 
 /**
- * Created by Druning on 2017/7/11.
+ * @author zenli
+ * @link https://leetcode.com/problems/3sum/description/
+ * @link http://www.lintcode.com/zh-cn/problem/3sum/
  */
 public class Sum_15 {
     public static List<List<Integer>> solution(int[] nums){
         List<List<Integer>> result = new ArrayList<>();
+        //先排序
         Arrays.sort(nums);
         //用Arrays工具类进行转化到字符打印
         System.out.println(Arrays.toString(nums));

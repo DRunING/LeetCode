@@ -4,7 +4,7 @@ package String;
  * Created by Druning on 2017/9/5.
  * 回文串判断，两个指针从两边夹(只计算合法字母)，复杂度O(n)，转换为小写比较
  */
-public class ValidPalindrome {
+public class ValidPalindrome_125 {
     public static boolean solution(String s) {
 //        System.out.println(s.trim());
         if (s == null || s.trim().isEmpty()) {

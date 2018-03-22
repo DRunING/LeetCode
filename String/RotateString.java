@@ -19,6 +19,7 @@ public class RotateString {
         System.out.println(rotateString(s, 2));
 
     }
+    //reverse字符串模板
     private static void reverse(char[] A, int start, int stop){
         while(start < stop){
             char tmp = A[start];
