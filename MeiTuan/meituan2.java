@@ -1,5 +1,6 @@
 package MeiTuan;
 
+import java.util.PriorityQueue;
 import java.util.Scanner;
 
 /**
@@ -21,7 +22,6 @@ public class meituan2 {
         }
         int i = 1;
         while(true){
-
         }
     }
 }

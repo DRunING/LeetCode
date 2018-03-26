@@ -10,7 +10,7 @@ import java.util.List;
  * @link https://leetcode.com/problems/triangle/description/
  */
 
-//使用两个数组进行保存结果
+//使用两个数组进行保存结果（推荐使用二维数组进行保存）
 public class Triangle_120 {
     //from top to bottom
     public int minimumTotal(List<List<Integer>> triangle) {
