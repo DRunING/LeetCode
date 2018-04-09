@@ -1,5 +1,7 @@
 package Tree;
 
+import org.junit.Test;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -49,6 +51,23 @@ public class BinaryTreeLevelOrderTraversal_102 {
             }
         }
         return result;
+    }
+
+    public ArrayList<Integer> examPrint(TreeNode root){
+        if(root == null) return null;
+        ArrayList<Integer> list = new ArrayList<>();
+        Queue<TreeNode> q = new LinkedList<>();
+        TreeNode curr = root;
+        q.offer(root);
+        while(!q.isEmpty()){
+            for(int i = 0; i < q.size(); i++){
+                TreeNode node = q.poll();
+                list.add(node.val);
+                if(node.left != null) q.offer(node.left);
+                if(node.right != null) q.offer(node.right);
+            }
+        }
+        return list;
     }
 }
 

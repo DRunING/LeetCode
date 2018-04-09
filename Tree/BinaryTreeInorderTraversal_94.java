@@ -45,32 +45,31 @@ public class BinaryTreeInorderTraversal_94 {
     }
 
 
-    public List<Integer> examRecur(TreeNode root) {
-        if(root == null) return result;
-        while(root != null){
-            examRecur(root.left);
-            result.add(root.val);
-            examRecur(root.right);
+    public List<Integer> exam(TreeNode root){
+        if(root == null) return null;
+        List<Integer> list = new ArrayList<>();
+        Stack<TreeNode> s = new Stack<>();
+        TreeNode curr = root;
+        while(curr != null || !s.isEmpty()){
+            while (curr != null){
+                s.add(curr);
+                curr = curr.left;
+            }
+            TreeNode node =  s.pop();
+            list.add(node.val);
+            curr =node.right;
         }
-        return result;
+        return list;
     }
 
-
-    public List<Integer> examIter(TreeNode root){
-        List<Integer> result = new ArrayList<>();
-        Stack<TreeNode> stack = new Stack<>();
-        TreeNode cur = root;
-        while(cur != null || !stack.isEmpty()){
-            if(cur != null){
-                stack.push(cur);
-                cur = cur.left;
-            }else {
-                cur = stack.pop();
-                result.add(root.val);
-                cur = cur.right;
-            }
+    ArrayList<Integer> list = new ArrayList<Integer>();
+    public List<Integer> examRecur(TreeNode root){
+        if(root != null){
+            examRecur(root.left);
+            list.add(root.val);
+            examRecur(root.right);
         }
-        return result;
+        return list;
     }
 
 

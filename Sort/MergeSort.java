@@ -9,6 +9,7 @@ public class MergeSort {
     public void mergeSort(int[] array){
         sort(array, 0, array.length - 1);
     }
+
     public void merge(int[] array, int low, int mid, int high){
         int[] helper = new int[array.length];
         //copy array to helper
@@ -33,6 +34,7 @@ public class MergeSort {
             }
         }
     }
+
     public void sort(int[] array, int low, int high){
         if(high <= low) return;
         int mid = low + (high - low) / 2;
@@ -44,9 +46,14 @@ public class MergeSort {
         }
         System.out.println();
     }
+
     @Test
     public void test(){
         int[] array = new int[]{6, 5, 3, 1, 8, 7, 2};
         mergeSort(array);
+    }
+
+    public void exam(int[] array){
+
     }
 }

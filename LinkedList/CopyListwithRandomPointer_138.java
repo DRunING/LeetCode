@@ -17,7 +17,6 @@ public class CopyListwithRandomPointer_138 {
             //link new node to new list
             RandomListNode newNode = new RandomListNode(head.label);
             curNode.next = newNode;
-
             //map old and new node
             randomMap.put(head, newNode);
             newNode.random = head.random;

@@ -7,7 +7,7 @@ import org.junit.Test;
  * O(n2)
  * 最长公共子序列
  */
-public class LCS {
+public class LCSequence {
     public int lcs (String a, String b){
         if(a == null || b == null || a.length() == 0 || b.length() == 0) return 0;
         int N = a.length();
@@ -22,12 +22,6 @@ public class LCS {
                 }
             }
         }
-//        int lcs = 0;
-//        for(int i = 0; i < N + 1; i++){
-//            for(int j = 0; j < M + 1; j++){
-//                lcs = Math.max(lcs, dp[i][j]);
-//            }
-//        }
         return dp[N][M];
     }
     @Test

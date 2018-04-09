@@ -73,4 +73,36 @@ public class QuickSort {
             testQuick(a, i + 1, r);
         }
     }
+
+    public void exam(int[] arr, int left , int right ){
+        if(left < right){
+            int i = left;
+            int j = right;
+            int x = arr[i];
+            while(i < j){
+                while(i < j && x < arr[j]){
+                    j--;
+                }
+                if(i < j){
+                    arr[i++] = arr[j];
+                }
+                while(i < j && x > arr[i]){
+                    i++;
+                }
+                if(i < j){
+                    arr[j--] = arr[i];
+                }
+            }
+            arr[i] = x;
+            exam(arr, left, i - 1);
+            exam(arr, i + 1, right);
+        }
+    }
+
+    @Test
+    public void testExam(){
+        int[] array = new int[]{2, 6, 5, 3, 1};
+        exam(array, 0, array.length - 1);
+        System.out.println(Arrays.toString(array));
+    }
 }
