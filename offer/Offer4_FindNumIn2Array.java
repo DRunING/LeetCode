@@ -1,4 +1,4 @@
-package offer;
+package LeetCode.offer;
 
 import org.junit.Test;
 

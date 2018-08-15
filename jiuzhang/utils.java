@@ -1,4 +1,4 @@
-package jiuzhang;
+package LeetCode.jiuzhang;
 
 /**
  * @author zenli

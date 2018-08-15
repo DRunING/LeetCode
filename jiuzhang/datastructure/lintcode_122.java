@@ -1,4 +1,4 @@
-package jiuzhang.datastructure;
+package LeetCode.jiuzhang.datastructure;
 
 import org.junit.Test;
 

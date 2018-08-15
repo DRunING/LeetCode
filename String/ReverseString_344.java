@@ -1,4 +1,4 @@
-package String;
+package LeetCode.String;
 
 /**
  * Created by Druning on 2017/9/23.

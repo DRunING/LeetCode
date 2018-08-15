@@ -1,4 +1,4 @@
-package BinarySearch;
+package LeetCode.BinarySearch;
 
 /**
  * @author zenli

@@ -1,4 +1,4 @@
-package String;
+package LeetCode.String;
 
 import org.junit.Test;
 

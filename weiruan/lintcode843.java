@@ -1,4 +1,4 @@
-package weiruan;
+package LeetCode.weiruan;
 
 import org.junit.Test;
 

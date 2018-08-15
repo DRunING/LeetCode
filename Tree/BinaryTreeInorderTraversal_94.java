@@ -1,4 +1,4 @@
-package Tree;
+package LeetCode.Tree;
 
 //import sun.reflect.generics.tree.Tree;
 

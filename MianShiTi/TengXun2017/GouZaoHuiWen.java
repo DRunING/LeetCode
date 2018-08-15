@@ -1,4 +1,4 @@
-package MianShiTi.TengXun2017;
+package LeetCode.MianShiTi.TengXun2017;
 
 import java.util.Scanner;
 

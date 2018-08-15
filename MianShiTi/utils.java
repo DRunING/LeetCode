@@ -1,4 +1,4 @@
-package MianShiTi;
+package LeetCode.MianShiTi;
 
 /**
  * @author zenli

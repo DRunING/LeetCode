@@ -1,4 +1,4 @@
-package BinarySearch;
+package LeetCode.BinarySearch;
 
 /**
  * Created by Druning on 2017/9/24.

@@ -1,4 +1,4 @@
-package offer;
+package LeetCode.offer;
 
 /**
  * @author zenli

@@ -1,4 +1,4 @@
-package Sort;
+package LeetCode.Sort;
 
 import org.junit.Test;
 

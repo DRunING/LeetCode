@@ -1,4 +1,4 @@
-package LinkedList;
+package LeetCode.LinkedList;
 
 /**
  * Created by Druning on 2017/9/21.

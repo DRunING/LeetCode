@@ -1,4 +1,4 @@
-package exhaustiveSearch;
+package LeetCode.exhaustiveSearch;
 
 import org.junit.Test;
 

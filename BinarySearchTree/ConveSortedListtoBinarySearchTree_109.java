@@ -1,6 +1,6 @@
-package BinarySearchTree;
-
-import LinkedList.ListNode;
+//package LeetCode.BinarySearchTree;
+//
+//import LinkedList.ListNode;
 
 /**
  * @author zenli

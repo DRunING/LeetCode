@@ -1,4 +1,4 @@
-package exhaustiveSearch;
+package LeetCode.exhaustiveSearch;
 
 import java.util.ArrayList;
 import java.util.Arrays;

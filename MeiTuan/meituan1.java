@@ -1,4 +1,4 @@
-package MeiTuan;
+package LeetCode.MeiTuan;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package BinarySearchTree;
+package LeetCode.BinarySearchTree;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
-package Stack;
+package LeetCode.Stack;
 
-import LinkedList.LinkedNode;
+import LeetCode.LinkedList.LinkedNode;
 import org.omg.Messaging.SYNC_WITH_TRANSPORT;
 import org.w3c.dom.ls.LSException;
 

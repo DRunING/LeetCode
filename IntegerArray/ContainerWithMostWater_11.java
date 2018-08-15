@@ -1,4 +1,4 @@
-package IntegerArray;
+package LeetCode.IntegerArray;
 
 /**
  * @author zenli

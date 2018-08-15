@@ -1,4 +1,4 @@
-package wangyi2017;
+package LeetCode.wangyi2017;
 
 
 import java.util.*;

@@ -1,6 +1,6 @@
-package weiruan;
+package LeetCode.weiruan;
 
-import LinkedList.ListNode;
+import LeetCode.LinkedList.ListNode;
 
 /**
  * @author zenli

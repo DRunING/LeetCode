@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package LeetCode.DynamicProgramming;
 
 /**
  * @author zenli

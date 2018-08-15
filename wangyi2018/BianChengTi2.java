@@ -1,4 +1,4 @@
-package wangyi2018;
+package LeetCode.wangyi2018;
 
 import java.util.Scanner;
 

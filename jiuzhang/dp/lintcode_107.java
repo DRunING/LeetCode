@@ -1,4 +1,4 @@
-package jiuzhang.dp;
+package LeetCode.jiuzhang.dp;
 
 import org.junit.Test;
 

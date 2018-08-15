@@ -1,4 +1,4 @@
-package Sort.TopN;
+package LeetCode.Sort.TopN;
 
 /**
  * @author zenli

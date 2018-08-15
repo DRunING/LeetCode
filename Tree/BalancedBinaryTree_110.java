@@ -1,4 +1,4 @@
-package Tree;
+package LeetCode.Tree;
 
 /**
  * @author zenli

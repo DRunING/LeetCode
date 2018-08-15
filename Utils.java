@@ -1,3 +1,5 @@
+package LeetCode;
+
 /**
  * @author zenli
  */
